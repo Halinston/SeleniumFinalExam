@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "dgSpecHash": "+R38nLBweE4=",
+  "success": true,
+  "projectFilePath": "D:\\C#_TestSelenium\\TestProject1\\TestProject1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nais_\\.nuget\\packages\\compulsorycow.areequal\\0.2.0\\compulsorycow.areequal.0.2.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\compulsorycow.meta\\3.0.0\\compulsorycow.meta.3.0.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.codecoverage\\17.10.0\\microsoft.codecoverage.17.10.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.net.test.sdk\\17.10.0\\microsoft.net.test.sdk.17.10.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.2.1\\microsoft.testing.extensions.telemetry.1.2.1.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.2.1\\microsoft.testing.extensions.trxreport.abstractions.1.2.1.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.2.1\\microsoft.testing.extensions.vstestbridge.1.2.1.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.testing.platform\\1.2.1\\microsoft.testing.platform.1.2.1.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.testing.platform.msbuild\\1.2.1\\microsoft.testing.platform.msbuild.1.2.1.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.10.0\\microsoft.testplatform.objectmodel.17.10.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\microsoft.testplatform.testhost\\17.10.0\\microsoft.testplatform.testhost.17.10.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\mstest.testadapter\\3.4.3\\mstest.testadapter.3.4.3.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\mstest.testframework\\3.4.3\\mstest.testframework.3.4.3.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\selenium.support\\4.21.0\\selenium.support.4.21.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\selenium.webdriver\\4.21.0\\selenium.webdriver.4.21.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\selenium.webdriver.chromedriver\\125.0.6422.6000\\selenium.webdriver.chromedriver.125.0.6422.6000.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\selenium.webdriver.iedriver\\4.14.0\\selenium.webdriver.iedriver.4.14.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\selenium.webdriver.msedgedriver\\124.0.2478.10-pre\\selenium.webdriver.msedgedriver.124.0.2478.10-pre.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\Nais_\\.nuget\\packages\\xunit.assert\\2.8.1\\xunit.assert.2.8.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "TestProject1 depends on Selenium.WebDriver.ChromeDriver (>= 125.0.6422.142) but Selenium.WebDriver.ChromeDriver 125.0.6422.142 was not found. An approximate best match of Selenium.WebDriver.ChromeDriver 125.0.6422.6000 was resolved.",
+      "libraryId": "Selenium.WebDriver.ChromeDriver",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
