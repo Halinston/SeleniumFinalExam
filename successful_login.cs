@@ -11,6 +11,7 @@ using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 namespace SeleniumTests
 {
     [TestFixture]
+    // This class contains test cases for successful scenarios
     public class SuccessfulTestCase
     {
         private IWebDriver driver;
@@ -19,51 +20,54 @@ namespace SeleniumTests
         private bool acceptNextAlert = true;
         
         [SetUp]
+        // This method sets up the test environment before each test
         public void SetupTest()
         {
-            driver = new ChromeDriver();
-            baseURL = "https://www.google.com/";
-            verificationErrors = new StringBuilder();
+            driver = new ChromeDriver(); // Initialize the ChromeDriver
+            baseURL = "https://www.google.com/"; // Base URL for the tests
+            verificationErrors = new StringBuilder(); // StringBuilder to store verification errors
         }
         
         [TearDown]
+        // This method cleans up the test environment after each test
         public void TeardownTest()
         {
             try
             {
-                driver.Quit();
+                driver.Quit(); // Quit the driver
             }
             catch (Exception)
             {
                 // Ignore errors if unable to close the browser
             }
-            Assert.AreEqual("", verificationErrors.ToString());
+            Assert.AreEqual("", verificationErrors.ToString()); // Assert that there are no verification errors
         }
         
         [Test]
+        // This is the test case for successful login
         public void TheSuccessfulTestCaseTest()
         {
-            driver.Navigate().GoToUrl("https://letsusedata.com/CourseSelection.html");
-            driver.FindElement(By.Id("txtUser")).Click();
-            driver.FindElement(By.Id("txtUser")).Clear();
-            driver.FindElement(By.Id("txtUser")).SendKeys("test1");
-            driver.FindElement(By.Id("txtPassword")).Click();
-            driver.FindElement(By.Id("txtPassword")).Clear();
-            driver.FindElement(By.Id("txtPassword")).SendKeys("Test12456");
-            driver.FindElement(By.Id("javascriptLogin")).Click();
-            Thread.Sleep(2000);
-            Assert.AreEqual("Test Course", driver.FindElement(By.Id("11CourseTitle")).Text);
+            driver.Navigate().GoToUrl("https://letsusedata.com/CourseSelection.html"); // Navigate to the test page
+            driver.FindElement(By.Id("txtUser")).Click(); // Click on the username field
+            driver.FindElement(By.Id("txtUser")).Clear(); // Clear the username field
+            driver.FindElement(By.Id("txtUser")).SendKeys("test1"); // Enter the username
+            driver.FindElement(By.Id("txtPassword")).Click(); // Click on the password field
+            driver.FindElement(By.Id("txtPassword")).Clear(); // Clear the password field
+            driver.FindElement(By.Id("txtPassword")).SendKeys("Test12456"); // Enter the password
+            driver.FindElement(By.Id("javascriptLogin")).Click(); // Click on the login button
+            Thread.Sleep(2000); // Wait for 2 seconds
+            Assert.AreEqual("Test Course", driver.FindElement(By.Id("11CourseTitle")).Text); // Assert that the course title is as expected
         }
         private bool IsElementPresent(By by)
         {
             try
             {
-                driver.FindElement(by);
-                return true;
+                driver.FindElement(by); // Try to find the element
+                return true; // Return true if the element is found
             }
             catch (NoSuchElementException)
             {
-                return false;
+                return false; // Return false if the element is not found
             }
         }
         
@@ -71,27 +75,27 @@ namespace SeleniumTests
         {
             try
             {
-                driver.SwitchTo().Alert();
-                return true;
+                driver.SwitchTo().Alert(); // Try to switch to the alert
+                return true; // Return true if the alert is present
             }
             catch (NoAlertPresentException)
             {
-                return false;
+                return false; // Return false if the alert is not present
             }
         }
         
         private string CloseAlertAndGetItsText() {
             try {
-                IAlert alert = driver.SwitchTo().Alert();
-                string alertText = alert.Text;
+                IAlert alert = driver.SwitchTo().Alert(); // Switch to the alert
+                string alertText = alert.Text; // Get the text of the alert
                 if (acceptNextAlert) {
-                    alert.Accept();
+                    alert.Accept(); // Accept the alert if acceptNextAlert is true
                 } else {
-                    alert.Dismiss();
+                    alert.Dismiss(); // Dismiss the alert if acceptNextAlert is false
                 }
-                return alertText;
+                return alertText; // Return the text of the alert
             } finally {
-                acceptNextAlert = true;
+                acceptNextAlert = true; // Reset acceptNextAlert to true
             }
         }
     }
