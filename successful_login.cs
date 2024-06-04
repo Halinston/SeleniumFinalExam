@@ -43,16 +43,15 @@ namespace SeleniumTests
         [Test]
         public void TheUntitledTestCaseTest()
         {
-            driver.Navigate().GoToUrl("https://letsusedata.com/");
+ driver.Navigate().GoToUrl("https://letsusedata.com/");
             driver.FindElement(By.Id("txtUser")).Click();
             driver.FindElement(By.Id("txtUser")).Clear();
             driver.FindElement(By.Id("txtUser")).SendKeys("test1");
             driver.FindElement(By.Id("txtPassword")).Click();
             driver.FindElement(By.Id("txtPassword")).Clear();
-            driver.FindElement(By.Id("txtPassword")).SendKeys("test12456");
+            driver.FindElement(By.Id("txtPassword")).SendKeys("test1234");
             driver.FindElement(By.Id("javascriptLogin")).Click();
-            driver.FindElement(By.XPath("//div[6]/div/div")).Click();
-            Thread.Sleep(NaN);
+            Thread.Sleep(1000);
             Assert.AreEqual("Password was incorrect", driver.FindElement(By.Id("lblMessage")).Text);
         }
         private bool IsElementPresent(By by)

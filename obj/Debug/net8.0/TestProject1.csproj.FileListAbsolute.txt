@@ -182,3 +182,4 @@ D:\C#_TestSelenium\TestProject1\obj\Debug\net8.0\refint\TestProject1.dll
 D:\C#_TestSelenium\TestProject1\obj\Debug\net8.0\TestProject1.pdb
 D:\C#_TestSelenium\TestProject1\obj\Debug\net8.0\TestProject1.genruntimeconfig.cache
 D:\C#_TestSelenium\TestProject1\obj\Debug\net8.0\ref\TestProject1.dll
+D:\C#_TestSelenium\TestProject1\obj\Debug\net8.0\TestProject1.sourcelink.json
