@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+R38nLBweE4=",
+  "dgSpecHash": "k92UV+bLd5U=",
   "success": true,
-  "projectFilePath": "D:\\C#_TestSelenium\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\Nais_\\Downloads\\SeleniumFinalExam\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nais_\\.nuget\\packages\\compulsorycow.areequal\\0.2.0\\compulsorycow.areequal.0.2.0.nupkg.sha512",
     "C:\\Users\\Nais_\\.nuget\\packages\\compulsorycow.meta\\3.0.0\\compulsorycow.meta.3.0.0.nupkg.sha512",

@@ -9,7 +9,7 @@ using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 namespace SeleniumTests
 {
     [TestFixture]
-    public class UntitledTestCase
+    public class UnsuccessfulTestCase
     {
         private IWebDriver driver;
         private StringBuilder verificationErrors;
@@ -41,7 +41,7 @@ namespace SeleniumTests
         }
         
         [Test]
-        public void TheUntitledTestCaseTest()
+        public void TheUnsuccesfulTestCaseTest()
         {
  driver.Navigate().GoToUrl("https://letsusedata.com/");
             driver.FindElement(By.Id("txtUser")).Click();

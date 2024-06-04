@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#_TestSelenium\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Users\\Nais_\\Downloads\\SeleniumFinalExam\\TestProject1.csproj": {}
   },
   "projects": {
-    "D:\\C#_TestSelenium\\TestProject1\\TestProject1.csproj": {
+    "C:\\Users\\Nais_\\Downloads\\SeleniumFinalExam\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#_TestSelenium\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\Nais_\\Downloads\\SeleniumFinalExam\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "D:\\C#_TestSelenium\\TestProject1\\TestProject1.csproj",
+        "projectPath": "C:\\Users\\Nais_\\Downloads\\SeleniumFinalExam\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\Nais_\\.nuget\\packages\\",
-        "outputPath": "D:\\C#_TestSelenium\\TestProject1\\obj\\",
+        "outputPath": "C:\\Users\\Nais_\\Downloads\\SeleniumFinalExam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nais_\\AppData\\Roaming\\NuGet\\NuGet.Config"
